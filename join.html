@@ -93,7 +93,7 @@
                         <li>
                             <label for="name_label" class="title_label essential_item">이름</label>
                             <div class="info_content">
-                                <input class="w320" type="text" id="name_label" placeholder="이름을 입력해 주세요.">
+                                <input required class="w320" type="text" id="name_label" placeholder="이름을 입력해 주세요.">
                             </div>
                         </li>
 
@@ -114,7 +114,7 @@
                         <li>
                             <label for="phone_label" class="title_label essential_item">연락처</label>
                             <div class="info_content">
-                                <input class="w320" type="text" id="phone_label" placeholder='휴대폰번호 "-" 없이 숫자만 입력해 주세요.'>
+                                <input autofocus class="w320" type="text" id="phone_label" placeholder='휴대폰번호 "-" 없이 숫자만 입력해 주세요.' >
                             </div>
                         </li>
 
@@ -130,6 +130,16 @@
                                     <option value="daum.net">다음</option>
                                     <option value="self">직접입력</option>
                                 </select>
+                            </div>
+                        </li>
+
+                        <li>
+                            <label for="address_label" class="title_label">주소</label>
+                            <div class="info_content">
+                               <input class="w160 mtb3" type="text" id="adress_label"> <button type="button">우편번호</button> <br>
+                               <input class="w70p mtb3" type="text" id="address1"> (도로명 주소) <br>
+                               <input class="w70p mtb3" type="text" id="address2"> (지번 주소) <br>
+                               <input class="w70p mtb3" type="text" id="address3"> (나머지 주소)
                             </div>
                         </li>
                     </ul>
