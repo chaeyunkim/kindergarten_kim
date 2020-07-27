@@ -8,9 +8,13 @@
 .topmenu{background:#f76f6f; color:rgba(255, 255, 255, 0.7); padding:10px 0; letter-spacing:-0.5px; transition:all 0.5s;}
 .topmenu a:hover{color:rgba(255, 255, 255, 1);}
 .topmenu .row{position:relative;}
-.topmenu .sns{float:left;}
-.topmenu .sns a{font-size:12.2px;padding-right:10px;}
+.topmenu .sns a{font-size:12.2px; padding-right:10px;}
 .topmenu .sns a:first-child span{font-size:11px;}
+.topmenu .search{position:absolute; top:0; left:50%; transform:translate(-50%);}
+.topmenu .search fieldset{border:2px solid #fff; height:25px;}
+.topmenu .search input{border:none; background:none; color:#fff; padding-left:0.5em; outline:none; width:180px;}
+.topmenu .search ::placeholder{color:#fff;}
+.topmenu .search button{border:none; background:#fff; color:#000; height:21px; padding:0 5px; vertical-align:top; float:right; font-size:11px;}
 .topmenu .login{position:absolute; top:0; right:0; color:#000;}
 .topmenu .login a{padding-left:10px; font-size:11px;}
 
