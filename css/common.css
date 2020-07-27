@@ -50,3 +50,5 @@
 .comInfo .info span:first-child:before{display:none;}
 
 .copyright{font-size:10.5px; color:#333; background:#0a0a0a; padding:10px 0;}
+
+/* @media only screen and (max-width:1199px;) {.row{max-width:970px; margin:0 auto;}} */
