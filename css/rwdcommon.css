@@ -1,11 +1,15 @@
 @charset "utf-8";
 
-@media only screen and (max-width:1170px;){
+@media only screen and (max-width:1170px){
     .row{padding:0 10px;}
-    .topmenu .login{position:absolute; top:0; right:0; color:#000;}
+    .topmenu .login{position:absolute; top:0; right:10px; color:#000;}
 }
 @media only screen and (max-width:992px) {
     .logoNav {position: relative; height: auto;}
-    .logoNav h1{color: #ffae3d; font-size: 26.25px; line-height: 76px; font-weight: bold; text-align: center;}
+    .logoNav h1{color: #ffae3d; font-size: 26.25px; padding:24.875px 0px 0px; font-weight: bold; text-align: center; }
     .logoNav .nav{position: static; top: 0; right: 0; text-align: center;}
+}
+
+@media only screen and (max-width:768px) {.logoNav .nav{position: static; top: 0; right: 0; text-align: center; display: none;}
+
 }

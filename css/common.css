@@ -19,10 +19,11 @@
 .topmenu .login a{padding-left:10px; font-size:11px;}
 
 .logoNav{position:relative; height:76px;}
-.logoNav h1{color:#ffae3d; font-size:26.25px; float:left; line-height:76px; font-weight:bold;}
+.logoNav h1{color:#ffae3d; font-size:26.25px; padding:24.875px 0px 24px; font-weight:bold; line-height:15.75px;}
 .logoNav .nav{position:absolute; top:0; right:0;}
-.logoNav .nav .depth1>li{display: inline-block; font-size:15.75px; line-height:76px; padding-left:30px; font-weight:bold; position:relative;}
+.logoNav .nav .depth1>li{display: inline-block; font-size:15.75px;  font-weight:bold; position:relative; padding:24.875px 0 24.875px 30px;}
 .logoNav .nav .depth1>li:first-child{color:#ffd23c;}
+.logoNav .nav .depth1>li>a{padding:25.875px 0 23.875px 30px;}
 .logoNav .nav .depth1>li>a:after{content:'\f078'; font-family: 'Font Awesome 5 Free'; font-weight:900px; color:#ccc; padding-left:10px;}
 .logoNav .nav .depth1>li:first-child>a:after{visibility:hidden;}
 .logoNav .nav .depth1>li:nth-child(5)>a:after{visibility:hidden;}
